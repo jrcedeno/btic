@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use Postgres as the database for Active Record
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -22,6 +22,16 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'bootstrap-sass', '~> 3.2.0' # latest version 
+gem 'autoprefixer-rails' # refrenced that this gem should be added with boostrap
+gem 'thin' # for pushing messsages also
+gem 'newrelic_rpm' # keep app from sleeping on heroku
+#gem 'rack-mini-profiler' # for showing speed specs in production and development
+# gem 'flamegraph' # for graphing out speed
+gem 'dalli' # for mechached for quicker views
+gem 'jquery-turbolinks' # to fix turbolinks not loading js
+gem 'slim' # Templating language(maybe used in later refactoring)
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
