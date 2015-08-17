@@ -32,6 +32,13 @@ gem 'newrelic_rpm' # keep app from sleeping on heroku
 gem 'dalli' # for mechached for quicker views
 gem 'jquery-turbolinks' # to fix turbolinks not loading js
 gem 'slim' # Templating language(maybe used in later refactoring)
+gem 'mailchimp-api', require: 'mailchimp' #FOR E-MAILS HANDLED BY MAILCHIMP
+gem 'jquery-datetimepicker-rails'
+gem "paperclip" # for uploading images
+gem 'devise' # for setting up users
+gem 'heroku-deflater' # for minifying css on heroku
+gem 'rails_12factor'
+gem "therubyracer"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -51,5 +58,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'binding_of_caller'
+  gem 'pry-rails'
+  #gem 'lol_dba' # this checks if there are any indexes left out type this "rake db:find_indexes"
+  gem 'bullet' # speed checker
+  gem 'meta_request' # gives rails panel for chrome speed debugging
 end
 
