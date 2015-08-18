@@ -171,7 +171,6 @@
 }
 
 .section-title h1:before{
-	content: url(../img/title-before.png);
 	display:block;
 	float:left;
 }
