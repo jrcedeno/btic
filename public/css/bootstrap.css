@@ -3739,7 +3739,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 0px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4022,7 +4022,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse {
   background-color: #222;
-  border-color: #080808;
+  border-color: #828C87;
 }
 .navbar-inverse .navbar-brand {
   color: #999;
@@ -4040,7 +4040,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: black;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,

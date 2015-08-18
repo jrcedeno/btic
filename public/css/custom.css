@@ -3,7 +3,7 @@
     border-color: #CCC;
 }
 .navbar {
-	background:#111;
+	background:white;
 }
 @media(min-width:767px) {
     .navbar {
